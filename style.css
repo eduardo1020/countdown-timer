@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-color: #EEEEEE;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background-color: #2A2D35;
+    width: 80vw;
+    height: 90vh;
+    border-radius: 30px;
+}
+
+#img {
+    background: url('/assets/deadpool.png') no-repeat center/cover;
+    position: absolute;
+    width: 40vw;
+    height: 90vh;
+    background-size: 60vh;
+}
+
+#text {
+    display: flex;
+    justify-content: center;
+    margin-left: 50%;
+    margin-top: 20%;
+}
+
+#text h3 {
+    color: #9E3B39;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+#countdown-timer {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50%;
+    margin-top: 3%;
+    color: #EEEEEE;
+    font-weight: bold;
+    font-size: 5.5em;
+}
+
+#legend {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50%;
+    color: #717075;
+    font-weight: 400;
+    font-size: 1.4em;
+}
+
+#btn {
+    display: flex;
+    justify-content: center;
+    margin-left: 50%;
+}
+
+#btn button {
+    background-color: #9E3B39;
+    width: 280px;
+    height: 60px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    color: #EEEEEE;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 30%;
+    cursor: pointer;
+    box-shadow: 3px 3px 8px #000;
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) {}
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {}
