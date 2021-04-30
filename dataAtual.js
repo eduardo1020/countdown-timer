@@ -46,8 +46,6 @@ function retornaDataAtual() {
 
     let dateCurrently = (`${month} ${day}, ${year}`)
 
-    let date = document.getElementById("date").innerHTML = dateCurrently
-
     return date
 }
 
